@@ -1,9 +1,17 @@
 .contain {
   padding: 2%;
+  background-color: transparent;
 }
 
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .p{
   text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#p2, #p3 {
+  display: none;
 }
 
 .column {
