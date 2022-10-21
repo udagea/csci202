@@ -6,10 +6,10 @@ $(document).ready(function() {
     $("p").css("color", "green");
     $("p").css({"font-family": "Arial, Helvetica, sans-serif"});
     $("h1").css({"font-family": "Arial, Helvetica, sans-serif", "font-size": "200%"});
-     $("h1").css("color", "green");
+     $("h1").css("color", "gray");
     $("#p2").show();
     $("#p3").show();
-    $("body").css("color", "black");
+    $("body").css("color", "gray");
   });
   
   $("#p3").click(function(){
