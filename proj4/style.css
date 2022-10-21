@@ -1,0 +1,41 @@
+.contain {
+  padding: 2%;
+}
+
+.p{
+  text-align: left;
+}
+
+.column {
+    float: left;
+    padding: 5;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.frame {
+  display: flex; 
+  justify-content:center;
+}
+
+#mirror {
+  height: 700px;
+  position: absolute;
+  z-index: 2;
+}
+
+#background {
+  height: 700px;
+  width: 350px;
+  position: absolute;
+  z-index: 1;
+}
+  /* img {
+    height: 700px;
+    background-image:url('images/lede_river.gif');
+} */
