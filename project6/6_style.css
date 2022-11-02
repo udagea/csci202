@@ -1,0 +1,98 @@
+
+/* .heroimage {
+    background-image: url("space_background.jpg"); /* The image used */
+    /* background-size: 100%; /* Resize the background image to cover the entire container */
+    /* max-width: auto;
+    background-attachment: fixed;
+    z-index: -2;
+  } */
+.site {
+    margin: 5%;
+}
+.container {
+    padding:10%;
+}
+body {
+    background-color: black;
+    background-image: url("space_background.jpg"); /* The image used */
+    background-size: 100%; /* Resize the background image to cover the entire container */
+    max-width: auto;
+    background-attachment: fixed;
+}
+.content {
+    z-index: 1;
+}
+
+#ISSimg {
+    max-width: 600px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+    text-align: center;
+    float: left;
+}
+
+#ISStext {
+    float:right;
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border: 2px;
+    background-color: white;
+    border-color: white;
+    width: 200px;
+    font-size: 18px;
+    font-family: monospace;
+    align-items: center;
+    align-self: center;
+}
+#Tiangongtext { 
+    float:left;
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border: 2px;
+    background-color: white;
+    border-color: white;
+    width: 200px;
+    font-size: 18px;
+    font-family: monospace;
+    align-items: center;
+    align-self: center;
+}
+
+#Tiangongimg {
+    max-width: 600px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+    float: right;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+img {
+    max-width: 600px;
+}
+.info {
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+
