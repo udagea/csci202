@@ -1,5 +1,5 @@
 
-$.getJSON('http://api.open-notify.org/astros.json?callback=?', function(data) {
+$.getJSON('data.json', function(data) {
     var number = data['number'];
     
     var name =data['name'];
@@ -9,7 +9,7 @@ $.getJSON('http://api.open-notify.org/astros.json?callback=?', function(data) {
     var people=data['people'];
 
     
-$.getJSON('http://api.open-notify.org/astros.json?callback=?', function(data) {
+$.getJSON('data.json', function(data) {
     var number = data['number'];
     $('#SpacePeople').html(number);
 
