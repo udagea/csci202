@@ -1,5 +1,5 @@
 
-$.getJSON('data.json', function(data) {
+$.getJSON('https://udagea.github.io/csci202/project6/data.json', function(data) {
     var number = data['number'];
     
     var name =data['name'];
@@ -9,7 +9,7 @@ $.getJSON('data.json', function(data) {
     var people=data['people'];
 
     
-$.getJSON('data.json', function(data) {
+$.getJSON('https://udagea.github.io/csci202/project6/data.json', function(data) {
     var number = data['number'];
     $('#SpacePeople').html(number);
 
