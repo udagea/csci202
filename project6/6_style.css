@@ -11,6 +11,19 @@
 }
 .container {
     padding:10%;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 300px;
+    vertical-align:baseline
+}
+
+.container2 {
+    padding-top: 600px;
+    margin-top: 5%;
+    padding:10%;
+    align-items: center;
+    align-self: center;
+    vertical-align: bottom;
 }
 body {
     background-color: black;
@@ -22,9 +35,17 @@ body {
 .content {
     z-index: 1;
 }
-
+h1 {
+    font-family: monospace;
+}
+h1 {
+    padding:10%;
+    align-items: center;
+    align-self: center;
+    
+}
 #ISSimg {
-    max-width: 600px;
+    max-width: 500px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -33,19 +54,21 @@ body {
     margin-top: 5px;
     text-align: center;
     float: left;
+    padding-right: 15%;
+    display: flex;
 }
 
 #ISStext {
     float:right;
     display: grid;
     justify-content: center;
-    padding: 20px;
+    padding-right: 80px;
     border-style: solid;
     border-radius: 20px;
     border: 2px;
     background-color: white;
     border-color: white;
-    width: 200px;
+    width: 260px;
     font-size: 18px;
     font-family: monospace;
     align-items: center;
@@ -55,13 +78,13 @@ body {
     float:left;
     display: grid;
     justify-content: center;
-    padding: 20px;
+    padding-right: 80px;
     border-style: solid;
     border-radius: 20px;
     border: 2px;
     background-color: white;
     border-color: white;
-    width: 200px;
+    width: 180px;
     font-size: 18px;
     font-family: monospace;
     align-items: center;
@@ -77,6 +100,7 @@ body {
     margin-left: 30px;
     margin-top: 5px;
     float: right;
+    align-items: center;
 }
  
 @keyframes floating {
