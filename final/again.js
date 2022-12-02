@@ -90,7 +90,7 @@ var scenario = {
     six: {
     image: "dining.jpg",
     text: "You examine the living room, looking at the photos on the walls. The blurry figures are almost familiar.",
-    buttons: [["Go upstairs", "advanceTo(scenario.seven)"],["Go to kitchen", "advanceTo(scenario.eight)"]]
+    buttons: [["Go upstairs", "advanceTo(scenario.seven)"],["Go to kitchen", "advanceTo(scenario.kitchenOne)"]]
     },
 //stairs
     seven: {
