@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <div class="screen"></div>
-    <div class="textbox">
-        <form id="theStory">
-            <p></p>
-            <fieldset></fieldset>
-            <a id="continueButton" class="continue" href="javascript:void(0);">Continue</a>
-        </form>
-        </div>
     
-<script src="story.js"></script>
+    <div id="tvImage_1"></div>
+    <div id="tvImage_2" class="hidden"></div>
+    <div id="tvImage_3" class="hidden"></div>
+    <div id="tvImage_4" class="hidden"></div>
+    <div class="tv">
+    </div>
+    
+    <div class="textbox">
+        <p>A lone television.</p>
+        <button onclick="myFunction()" id="imgClickAndChange" onclick="changeImage()">Change Channel</button>
+        <button onclick="changeLocation()" id="proceedButton" class="proceed" href="javascript:void(0);"> Proceed</button>
+    </div>
+
+<script src="javascript.js"></script>
 </body>
 </html>
