@@ -138,19 +138,16 @@ var scenario = {
 ending1: {
     image: "tv.jpg",
     text: "You were not ready to be back, and that is okay. - Ending 1.",
-    buttons: [["Exit room", "advanceTo(scenario.five)"]]
     }, 
 
 ending2: {
     image: "tvroom.png",
     text: "It may no longer be home, for better or worse, but you have made it. Welcome back, Your name. - Ending 2",
-    buttons: [["Exit room", "advanceTo(scenario.five)"]]
     }, 
 
 ending3: {
     image: "tv.jpg",
     text: "It may no longer be home, for better or worse.  - Ending 2.",
-    buttons: [["Exit room", "advanceTo(scenario.five)"]]
     }, 
 };
 
