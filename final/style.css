@@ -1,0 +1,98 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+#images {
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+  border: 2px;
+  border-style:outset;
+  box-sizing: border-box;
+  border-color: greenyellow;
+  color: aliceblue;
+  margin-left: 10%;
+  margin-top: 2%;
+  padding: 2%;
+  width: 80%;
+  height: 600px;
+  background-size: cover;
+  align-self: center;
+  align-items: center;
+}
+
+.tv {
+
+  border: 2px;
+  border-style:outset;
+  box-sizing: border-box;
+  border-color: greenyellow;
+  color: aliceblue;
+  margin-left: 10%;
+  margin-top: 2%;
+  padding: 2%;
+  width: 80%;
+  height: 600px;
+  background-image: url("tvroom.png");
+  background-size: cover;
+  align-self: center;
+  align-items: center;
+}
+
+.textbox {
+    border: 2px;
+    border-color: greenyellow;
+    color: aliceblue;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 100px;
+    margin-top: 5%;
+    padding: 10px;
+    border: gainsboro 1px inset;
+    align-items: center;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+input {
+  float:left;
+  width: 40%;
+  align-self: center;
+  height: 30px;
+  text-align:center;
+  font-size: 1em;
+  margin-top:15px;
+}
+
+#buttonBox {
+  text-align:center;
+  align-items: center;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    margin-top: 10px;
+    margin-left: 5%;
+    align-items: center;
+    align-content: center;
+    align-self: start;
+  }
+
+button{
+  margin-left: 3%;
+  margin-top: 15px;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: large;
+  background-color: hsl(180, 9%, 98%);
+    border: 1px solid hsl(198, 10%, 74%);
+    color: black;
+    outline: none;
+  align-content: center;
+}
+button:hover {
+    border-color: black;
+  }
