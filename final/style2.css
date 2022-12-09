@@ -132,7 +132,7 @@ body {
     width: 170px;
     position:absolute;
     left: 42%;
-    top: 27%;
+    top: 30%;
     background-size: cover;
     z-index: -2;
 }
@@ -143,7 +143,7 @@ body {
     width: 200px;
     position:absolute;
     left: 40%;
-    top: 27%;
+    top: 30%;
     background-size: cover;
     z-index: -2;
 }
