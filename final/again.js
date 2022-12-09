@@ -76,7 +76,7 @@ var scenario = {
     buttons: [["Search room", "advanceTo(scenario.four)"],["Exit room", "advanceTo(scenario.five)"]]
   },
     four: {
-    image: "living_room.jpg",
+    image: "photo.jpg",
     text: "You find an old polaroid on the table. The photo is blurry.",
     buttons: [["Exit room", "advanceTo(scenario.five)"]]
   },
